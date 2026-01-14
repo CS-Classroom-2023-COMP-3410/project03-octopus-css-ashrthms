@@ -1,0 +1,34 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+.important {
+    color:red !important;
+    font-weight: bold !important;
+}
+
+#header {
+    color:white;
+    background-color:rgb(86, 152, 227);
+    text-align: center;
+}
+
+#main-content {
+   padding: left 50px;
+}
+
+h1 {
+    color:inherit;
+}
+
+/* quiz section */
+#quiz-section{
+    background-color: rgb(204, 251, 251);
+    border: 1px solid rgb(212, 212, 212);
+    display: grid;
+}
+
+img {
+    border: 4px solid purple;
+}
