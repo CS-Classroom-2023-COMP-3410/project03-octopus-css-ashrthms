@@ -62,19 +62,20 @@
 
             <!-- Image -->
             <img src="octopus-image.png" alt="Image of an octopus" width="100">
+            <div>
+                <h2 style="margin:1px">Octopus Quiz</h2>
+                <form action="/submit-quiz" method="POST">
+                    <!-- Question 1 -->
+                    <label for="question1">How many hearts does an octopus have?</label>
+                    <input type="text" id="question1" name="question1"><br>
 
-            <h2>Octopus Quiz</h2>
-            <form action="/submit-quiz" method="POST">
-                <!-- Question 1 -->
-                <label for="question1">How many hearts does an octopus have?</label>
-                <input type="text" id="question1" name="question1"><br>
+                    <!-- Question 2 -->
+                    <label for="question2">Can octopuses change color? (Yes/No)</label>
+                    <input type="text" id="question2" name="question2"><br>
 
-                <!-- Question 2 -->
-                <label for="question2">Can octopuses change color? (Yes/No)</label>
-                <input type="text" id="question2" name="question2"><br>
-
-                <input type="submit" value="Submit Quiz">
-            </form>
+                    <input type="submit" value="Submit Quiz">
+                </form>
+            </div>
         </div>
 
     </div> <!-- End of main-content -->
@@ -82,7 +83,7 @@
     <!-- Table -->
     <div id="species-table">
         <h2>Common Octopus Species</h2>
-        <table border="1">
+        <table>
             <tr>
                 <th>Species</th>
                 <th>Location</th>
